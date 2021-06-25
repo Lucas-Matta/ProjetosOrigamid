@@ -56,8 +56,32 @@
     font-size: 18px;
     line-height: 25px;
     padding: 30px 40px;
+    height: 180px;
 }
 
 .produto-info ul li{
-    
+    background: #fec63e;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: .1em;
+    float: left;
+    width: 229px;
+    height: 48px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.produto-info ul li:nth-child(1){
+    margin-bottom: 2px;
+} 
+
+.produto-info ul li:nth-child(2){
+    margin-bottom: 2px;
+}
+
+/* Fala com os itens pares de uma lista  */
+.produto-info ul li:nth-child(even){
+    margin-left: 2px;
 }
