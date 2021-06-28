@@ -151,3 +151,44 @@
     cursor: pointer;
     background: none;
 }
+
+.orcamento-dados{
+    color: #FFF;
+}
+
+.orcamento-dados h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fec63e;
+    line-height: 25px;
+}
+
+.orcamento-dados span{
+    display: block;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.orcamento-dados .email{
+    margin-bottom: 60px;
+}
+
+.orcamento-dados ul{
+    padding-right: 40px;
+}
+
+.orcamento-dados ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.orcamento-dados ul li:nth-child(odd){
+    background: #1d1d1d;
+}
+
+.orcamento-dados p{
+    margin: 8px 0;
+}
