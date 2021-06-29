@@ -1,0 +1,50 @@
+@media only screen and (min-width: 788px) and (max-width: 979px){
+    .qualidade:after{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 787px){
+    .header{
+        position: relative;
+        padding-bottom: 0;
+    }
+
+    .headerMenu{
+        text-align: center;
+    }
+
+    .header img{
+        margin: 0 auto;
+    }
+
+    .headerMenu ul li{
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .headerMenu ul li a{
+        color: #000;
+        border: 4px solid #000;
+        width: 140px;
+        display: inline-block;
+        float: left;
+    }
+
+    .headerMenu ul li a:hover{
+        border-color: #fff;
+    }
+
+    .introducao{
+        margin-top: 0;
+        padding-top: 20px;
+        background: url(../assets/bg-mobile.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    .qualidade:after{
+        display: none;
+    }
+
+}
