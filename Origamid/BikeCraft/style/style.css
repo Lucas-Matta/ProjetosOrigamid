@@ -419,6 +419,9 @@ img{
     text-indent: -100px;
     overflow: hidden;
   }
+
   [data-slide-nav] > button.active {
     background: #fec454;
   }
+
+  

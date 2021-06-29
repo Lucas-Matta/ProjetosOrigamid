@@ -14,4 +14,5 @@ new SimpleSlide({
     pauseOnHover: false, // pausa a transição automática
 });
 
+new SimpleAnime();
 
