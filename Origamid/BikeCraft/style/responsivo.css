@@ -3,6 +3,21 @@
         display: none;
     }
 
+    .produto-icone{
+        background-color: #000;
+        padding: 41px 0;
+    }
+
+    .produto-info p{
+        font-size: 14px;
+        padding: 20px 30px;
+        height: 122px;
+    }
+
+    .produto-info ul li {
+        width: 181px;
+    }
+
 }
 
 @media only screen and (max-width: 787px){
@@ -65,6 +80,23 @@
     .missao-sobre ul li{
         font-size: 14px;
         line-height: 25px;
+    }
+
+    .produto-item h2{
+        top: -100px;
+        margin-bottom: -68px;
+    }
+
+    .produto-info p{
+        height: auto;
+    }
+
+    .produto-info ul li {
+        width: 149px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: normal;
+        padding-top: 14px;
     }
 
 }
