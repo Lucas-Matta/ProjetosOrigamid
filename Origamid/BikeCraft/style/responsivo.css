@@ -52,4 +52,19 @@
         padding-top: 40px;
     }
 
+    .introducao-interna{
+        margin-top: 0;
+    }
+
+    .missao-sobre p{
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .missao-sobre ul li{
+        font-size: 14px;
+        line-height: 25px;
+    }
+
 }
