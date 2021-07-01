@@ -1,2 +1,2 @@
 # ProjetosOrigamid
- Projetos realizados durante o treinamento online da plataforma Origamid
+ *__Projetos que estão sendo realizados durante o treinamento online da plataforma Origamid__*
