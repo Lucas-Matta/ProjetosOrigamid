@@ -25,3 +25,11 @@ https://bikcraft.com/portfolio/
 ![image](https://user-images.githubusercontent.com/67201210/127382661-53dea997-2b30-4b15-891b-080a2a52ec3b.png)
 
 ***
+
+## <p align="center">💡	Projeto Animais Fantasticos</p>
+
+### 💻 Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript
