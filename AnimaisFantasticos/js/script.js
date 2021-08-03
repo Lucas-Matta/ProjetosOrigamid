@@ -1,4 +1,7 @@
-// Pegando as imagens do site
+////////////////////////////////////////////////////////////////////////////////////
+///                       Manipulando DOM com JavaScript                        ///
+
+//// Pegando as imagens do site ////
 const img = document.querySelectorAll('img');
 console.log(img);
 
@@ -17,3 +20,21 @@ console.log(gridSectionNode);
 
 // Transformando em Array
 const arrayGrid = Array.from(gridSectionHTML);
+
+////////////////////////////////////////////////////////////////////////////////////
+///              Manipulando Classes com JavaScript e Atributos                 ///
+
+//// Pegando o Menu ////
+const menu = document.querySelector('.menu');
+
+// Mostrando a lista de classes
+console.log(menu.classList)
+
+menu.classList.add('azul');
+menu.classList.remove('azul');
+// Verifica se existe, se não tiver ele coloca, se tiver ele remove
+menu.classList.toggle('azul');
+menu.classList.toggle('azul');
+
+// Verifica se existe uma classe
+console.log(menu.classList.contains('azul'));
