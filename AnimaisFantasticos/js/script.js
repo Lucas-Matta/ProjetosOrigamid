@@ -38,3 +38,19 @@ menu.classList.toggle('azul');
 
 // Verifica se existe uma classe
 console.log(menu.classList.contains('azul'));
+
+const animais = document.querySelector('.animais');
+console.log('Atributos da classe Animais ' + animais.attributes);
+
+
+const imgAnimais = document.querySelector('img');
+
+// Pega os atributos
+console.log('Imagem: ' + imgAnimais.getAttribute('alt'));
+// Troca os atributos
+imgAnimais.setAttribute('alt', 'Raposa');
+console.log('Imagem: ' + imgAnimais.getAttribute('alt'));
+
+// Verifica se possui algum elemento
+const possuiAlt = imgAnimais.hasAttribute('alt');
+console.log(possuiAlt);
