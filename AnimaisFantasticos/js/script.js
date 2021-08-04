@@ -86,3 +86,18 @@ console.log(
     window.innerHeight,
     window.outerHeight,
 )
+
+function somaWidthImages(){
+    const img = document.querySelectorAll('img');
+    let soma = 0;
+
+    img.forEach((image) => {
+        soma += image.offsetWidth;
+    });
+
+    console.log(soma)
+}
+
+window.onload = () => {
+    somaWidthImages();
+}
