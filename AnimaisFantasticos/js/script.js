@@ -54,3 +54,35 @@ console.log('Imagem: ' + imgAnimais.getAttribute('alt'));
 // Verifica se possui algum elemento
 const possuiAlt = imgAnimais.hasAttribute('alt');
 console.log(possuiAlt);
+
+////////////////////////////////////////////////////////////////////////////////////
+///              Dimensões e Distancias                 ///
+
+const listaAnimais = document.querySelector('.animais-list');
+
+// Verifica o tamanho de um elemento
+const height = listaAnimais.scrollHeight;
+
+// Verifica a largura de um documento
+const width = listaAnimais.clientWidth;
+
+console.log(`Height da lista: ${height} e o width: ${width}`);
+
+const primeiroH2 = document.querySelector('h2');
+
+// Pega a distancia da Esquerda
+const leftH2 = primeiroH2.offsetLeft;
+
+// Pega a distancia do topo
+const topH2 = primeiroH2.offsetTop;
+
+console.log(`A distancia do H2 para left seria ${leftH2} e a distancia do topo seria ${topH2}`);
+
+console.log(
+    // Pega o tamanho da janela sem contar o console
+    window.innerWidth,
+    // Pega o tamanho da janela contando com o console
+    window.outerWidth,
+    window.innerHeight,
+    window.outerHeight,
+)
