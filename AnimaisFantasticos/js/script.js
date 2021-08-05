@@ -33,7 +33,7 @@ console.log(menu.classList)
 menu.classList.add('azul');
 menu.classList.remove('azul');
 // Verifica se existe, se não tiver ele coloca, se tiver ele remove
-menu.classList.toggle('azul');
+menu.classList.toggle('azul'); 
 menu.classList.toggle('azul');
 
 // Verifica se existe uma classe
@@ -101,3 +101,16 @@ function somaWidthImages(){
 window.onload = () => {
     somaWidthImages();
 }
+
+////////////////////////////////////////////////////////////////////////////////////
+///             Transversing ( Navegação do DOM )                 ///
+
+const animaisLista = document.querySelectorAll('.animais-list');
+
+// animaisLista.parentElement // Pega o pai
+// animaisLista.parentElement.parentElement // Pega o pai do Pai
+
+console.log(listaAnimais.previousElementSibling) // Pega o elemento a cima
+console.log(listaAnimais.nextElementSibling)// Pega o elemento abaixo
+
+animaisLista.children // Pega os filhos da lista
