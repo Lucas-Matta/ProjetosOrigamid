@@ -113,4 +113,25 @@ const animaisLista = document.querySelectorAll('.animais-list');
 console.log(listaAnimais.previousElementSibling) // Pega o elemento a cima
 console.log(listaAnimais.nextElementSibling)// Pega o elemento abaixo
 
-animaisLista.children // Pega os filhos da lista
+// animaisLista.children // Pega os filhos da lista
+
+const animaisFan = document.querySelector('.animais');
+const titulo = document.querySelector('.titulo');
+const contato = document.querySelector('.contato');
+const mapa = document.querySelector('.mapa');
+
+// insertBefore --> Vai mover um elemento para dentro do contato, antes do mapa
+// ( Precisa ser passado como segunda argumento o children do contato )
+
+// contato.insertBefore(animaisFan, mapa)
+
+// contato.appendChild(lista)
+// contato.removeChild(titulo)
+// contato.replaceChild(lista, titulo)
+
+const menuCopy = document.querySelector('.menu');
+const copy = document.querySelector('.copy');
+
+const cloneMenu = menuCopy.cloneNode(true);
+
+copy.appendChild(cloneMenu);
