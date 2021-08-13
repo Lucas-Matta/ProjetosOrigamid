@@ -216,6 +216,7 @@ ul{
 }
 
 /***************************************************************************/
+/* Animação do Accordion */
 
 .js-accordion dd{
     display: none;
@@ -248,14 +249,22 @@ ul{
 }
 
 /***************************************************************************/
+/* Animação do scrollAnimation.JS */
+
+.js-scroll{
+    opacity: 0;
+    transform:  translate3d(-70px, -80px, 0);
+    transition: .3s;
+}
+
+.js-scroll.ativo{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
 
 
 
-
-
-
-
-
+/***************************************************************************/
 
 
 
